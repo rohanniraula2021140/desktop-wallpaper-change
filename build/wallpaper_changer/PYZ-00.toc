@@ -831,18 +831,6 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\pprint.py',
    'PYMODULE'),
-  ('psutil',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\__init__.py',
-   'PYMODULE'),
-  ('psutil._common',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\_common.py',
-   'PYMODULE'),
-  ('psutil._compat',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\_compat.py',
-   'PYMODULE'),
-  ('psutil._pswindows',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\_pswindows.py',
-   'PYMODULE'),
   ('py_compile',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\py_compile.py',

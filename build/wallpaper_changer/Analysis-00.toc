@@ -778,13 +778,13 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\platform.py',
    'PYMODULE'),
-  ('stringprep',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\stringprep.py',
-   'PYMODULE'),
   ('tracemalloc',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\stringprep.py',
    'PYMODULE'),
   ('_py_abc',
    'C:\\Program '
@@ -1339,18 +1339,6 @@
   ('statistics',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\statistics.py',
-   'PYMODULE'),
-  ('psutil',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\__init__.py',
-   'PYMODULE'),
-  ('psutil._pswindows',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\_pswindows.py',
-   'PYMODULE'),
-  ('psutil._compat',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\_compat.py',
-   'PYMODULE'),
-  ('psutil._common',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\_common.py',
    'PYMODULE')],
  [('python39.dll',
    'C:\\Program '
@@ -1453,9 +1441,6 @@
   ('charset_normalizer\\md.cp39-win_amd64.pyd',
    'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\charset_normalizer\\md.cp39-win_amd64.pyd',
    'EXTENSION'),
-  ('psutil\\_psutil_windows.pyd',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\_psutil_windows.pyd',
-   'EXTENSION'),
   ('VCRUNTIME140.dll',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\VCRUNTIME140.dll',
@@ -1478,10 +1463,6 @@
   ('libffi-7.dll',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\DLLs\\libffi-7.dll',
-   'BINARY'),
-  ('python3.dll',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\python3.dll',
    'BINARY')],
  [],
  [],

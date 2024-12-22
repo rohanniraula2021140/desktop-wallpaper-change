@@ -149,9 +149,6 @@
   ('charset_normalizer\\md.cp39-win_amd64.pyd',
    'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\charset_normalizer\\md.cp39-win_amd64.pyd',
    'EXTENSION'),
-  ('psutil\\_psutil_windows.pyd',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\psutil\\_psutil_windows.pyd',
-   'EXTENSION'),
   ('VCRUNTIME140.dll',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\VCRUNTIME140.dll',
@@ -174,10 +171,6 @@
   ('libffi-7.dll',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\DLLs\\libffi-7.dll',
-   'BINARY'),
-  ('python3.dll',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\python3.dll',
    'BINARY'),
   ('base_library.zip',
    'D:\\Projects\\desktop-wallpaper-change\\build\\wallpaper_changer\\base_library.zip',
