@@ -644,9 +644,6 @@
   ('win32com.util',
    'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\win32com\\util.py',
    'PYMODULE'),
-  ('win32con',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\win32\\lib\\win32con.py',
-   'PYMODULE'),
   ('win32com.server.exception',
    'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\win32com\\server\\exception.py',
    'PYMODULE'),
@@ -778,21 +775,24 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\platform.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('_py_abc',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\tracemalloc.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\_py_abc.py',
    'PYMODULE'),
   ('stringprep',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\stringprep.py',
    'PYMODULE'),
-  ('_py_abc',
+  ('tracemalloc',
    'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\_py_abc.py',
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('textwrap',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('win32con',
+   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\win32\\lib\\win32con.py',
    'PYMODULE'),
   ('win32com.client',
    'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\win32com\\client\\__init__.py',
@@ -1401,6 +1401,9 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\DLLs\\pyexpat.pyd',
    'EXTENSION'),
+  ('win32\\win32gui.pyd',
+   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\win32\\win32gui.pyd',
+   'EXTENSION'),
   ('_ctypes.pyd',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\DLLs\\_ctypes.pyd',
@@ -1469,9 +1472,9 @@
  [('base_library.zip',
    'D:\\Projects\\desktop-wallpaper-change\\build\\wallpaper_changer\\base_library.zip',
    'DATA'),
-  ('certifi\\py.typed',
-   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\certifi\\py.typed',
-   'DATA'),
   ('certifi\\cacert.pem',
    'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'D:\\Projects\\desktop-wallpaper-change\\venv\\lib\\site-packages\\certifi\\py.typed',
    'DATA')])

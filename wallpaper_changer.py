@@ -7,6 +7,8 @@ import sys
 import time
 import ctypes
 import win32com.client
+import win32gui
+import win32con
 import textwrap
 
 # Constants for wallpaper settings
@@ -89,7 +91,7 @@ def draw_text_with_border_and_shadow(draw, text, position, font, text_color, bor
     draw.text(shadow_position, text, font=font, fill=shadow_color)
 
     # Now, draw the border around the text (in multiple directions)
-    border_offset = 4
+    border_offset = 7
     for x_offset in [-border_offset, 0, border_offset]:
         for y_offset in [-border_offset, 0, border_offset]:
             if x_offset == 0 and y_offset == 0:  # Skip the center position
@@ -126,6 +128,15 @@ def create_image(quote, author):
 # Set the generated image as the wallpaper
 def set_wallpaper(image_path):
     ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, image_path, 3)
+     # Show the desktop by minimizing all open windows
+    def show_desktop():
+        def enum_windows_callback(hwnd, lParam):
+            if win32gui.IsWindowVisible(hwnd):
+                win32gui.ShowWindow(hwnd, win32con.SW_MINIMIZE)
+
+        win32gui.EnumWindows(enum_windows_callback, None)
+
+    show_desktop()
 
 # Add the script to the startup folder
 def add_to_startup():
