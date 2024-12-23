@@ -37,7 +37,7 @@ def fetch_quote():
         return data[0]["q"], data[0]["a"]
     except requests.exceptions.RequestException as e:
         print(f"Error fetching quote: {e}")
-        return "No quote available", "ZenQuotes"
+        return "No quote available (Check Internet)", "ZenQuotes"
 
 # Fetch random image from Unsplash API
 def fetch_image():
@@ -159,5 +159,5 @@ def main():
         time.sleep(3600)  # Wait for 1 hour (3600 seconds) before updating the wallpaper again
 
 if __name__ == "__main__":
-    add_to_startup()  # Ensure the script runs at startup
+    # add_to_startup()  # Ensure the script runs at startup
     main()  # Start the wallpaper update loop
